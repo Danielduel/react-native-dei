@@ -3,6 +3,8 @@
 # compatibile between posix shells even if using Windows as docker host.
 #
 
+mkdir -p src
+
 IS_OS_WSL=false
 [ "$(grep Microsoft /proc/version)" ] && IS_OS_WSL=true
 
