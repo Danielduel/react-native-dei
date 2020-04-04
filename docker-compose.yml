@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  react_native_dei:
+    build: .
+    ports:
+      - 8081:8081
+      - 5037:5037
+      - 5555:5555
+    volumes:
+      - type: bind
+        source: ./src
+        target: /code/app
+      - type: bind
+        source: ~/.android
+        target: /root/.android
