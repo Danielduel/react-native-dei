@@ -1,4 +1,4 @@
-# certificates/adbkey
-# certificates/adbkey.pub
+certificates/adbkey
+certificates/adbkey.pub
 src
 .env

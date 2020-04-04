@@ -10,6 +10,3 @@ services:
       - type: bind
         source: ./src
         target: /code/app
-      - type: bind
-        source: ~/.android
-        target: /root/.android
