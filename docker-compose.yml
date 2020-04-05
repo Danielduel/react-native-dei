@@ -7,6 +7,5 @@ services:
       - 5037:5037
       - 5555:5555
     volumes:
-      - type: bind
-        source: ./src
-        target: /code/app
+      - ./src:/code/app
+    env_file: .env
