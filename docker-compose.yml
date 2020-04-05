@@ -2,6 +2,7 @@ version: '3.7'
 services:
   react_native_dei:
     build: .
+    network_mode: host
     ports:
       - 8081:8081
       - 5037:5037
